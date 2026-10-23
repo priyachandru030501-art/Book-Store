@@ -1,0 +1,47 @@
+
+.book-navbar {
+  width: 100%;
+  padding: 18px 6%;
+  background: #183c32;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  box-sizing: border-box;
+}
+
+.book-logo {
+  color: #f5dba5;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.book-nav-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.book-nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.book-nav-links a:hover {
+  color: #f5dba5;
+}
+
+@media (max-width: 600px) {
+  .book-navbar {
+    justify-content: center;
+  }
+
+  .book-nav-links {
+    justify-content: center;
+    gap: 15px;
+  }
+}

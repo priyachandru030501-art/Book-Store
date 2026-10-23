@@ -1,0 +1,39 @@
+
+.book-footer {
+  background: #102c25;
+  color: white;
+  padding: 35px 20px 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.book-footer h3 {
+  color: #f5dba5;
+  letter-spacing: 3px;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.book-footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin: 20px 0;
+}
+
+.book-footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.book-footer-links a:hover {
+  color: #f5dba5;
+}
+
+.book-copyright {
+  border-top: 1px solid #466258;
+  padding-top: 18px;
+  margin: 20px 0 0;
+  font-size: 13px;
+}
